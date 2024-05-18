@@ -27,11 +27,16 @@ let convertBool = Boolean(isLogged)
 
 let stringVal = undefined
 let convertString = String(stringVal) 
-console.log(typeof convertString)
-console.log(convertString);  
+// console.log(typeof convertString)
+// console.log(convertString);  
 
 // NOTES - CONVERTSION TO STRING
 // null => null - but as a string
 // undefined => undefined - but as a string
 // any number as it is but as a string
 // both true and false as it is but as a string
+
+console.log(true)
+let varia = 1 + "2" + 1
+console.log(varia);
+console.log(typeof varia);
