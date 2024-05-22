@@ -15,6 +15,7 @@ let myCreatedDate = new Date(2023,0,10) // month indexing starts from 0
 // let myCreatedDate = new Date("8-19-2003") // indian date format
 console.log(myCreatedDate.toLocaleString());
 
+
 // Time 
 
  let myTime = Date.now();
